@@ -1,0 +1,24 @@
+.top-line {
+  color: fff;
+  min-height: 412px;
+  background: url("../../img/headline.png") right 55% top / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+.top-line__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 68px;
+}
+
+.top-line__header {
+  margin-bottom: 37px;
+}
+
+.top-line__header-reviews {
+  margin-bottom: 22px;
+}

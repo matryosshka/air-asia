@@ -1,0 +1,15 @@
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 9px 18px;
+  border-radius: 50px;
+  background: #E7E7E7;
+}
+
+.review__tags-item {
+  margin: 0 10px 10px 17px;
+}
+
+.tag--blue {
+  background: #B9EAE4;
+}

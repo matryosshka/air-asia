@@ -1,0 +1,32 @@
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.partners__item {
+  min-width: 241px;
+  max-width: 300px;
+  flex-grow: 1;
+  margin-right: 26px;
+  margin-bottom: 64px;
+  filter: grayscale(100%);
+  transition: filter .3s;
+}
+
+.partners__item:hover {
+  filter: grayscale(0);
+}
+
+.partners__item:nth-child(4n + 4) {
+  margin-right: 0;
+}
+
+.partners__link {
+  display: flex;
+  align-items: center;
+}
+
+.partners__item:nth-child(4n + 4) .partners__link {
+  justify-content: flex-end;
+}

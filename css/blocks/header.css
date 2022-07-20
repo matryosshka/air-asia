@@ -1,0 +1,141 @@
+.header {
+  display: flex;
+  min-height: 145px;
+  margin-bottom: 53px;
+}
+
+.header__container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 15px; 
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__right {
+  justify-content: flex-end;
+}
+
+.header__right-main {
+  padding-top: 22px;
+}
+
+.header__right-inner {
+  padding-top: 17px;
+}
+
+
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+}
+
+.header-main__logo {
+  width: 85px;
+  margin-right: 79px;
+}
+
+.inner-logo__image {
+  width: 98px;
+  height: 42px;
+  margin-right: 66px;
+}
+
+.menu__item {
+  margin-right: 54px;
+  margin-top: 9px;
+  font-size: 14px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link:hover {
+  color: #F5170E;
+}
+
+.contacts__phone {
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 27px;
+color: #fff;
+}
+
+.contacts__dropdown-title {
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+text-decoration-line: underline;
+color: #98A4A8;
+text-align: right;
+transition: .3s;
+}
+
+.contacts__dropdown-title:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.contacts__dropdown {
+  position: relative;
+}
+
+.contacts__dropdown:hover .dropdown {
+  left: initial;
+  right: 0;
+  opacity: 80%;
+  }
+
+.dropdown {
+  position: absolute;
+  padding: 12px 19px;
+  background: #EDEDED;
+  color: #1E1F20;
+  text-align: left;
+  font-size: 13px;
+  line-height: 21px;
+  border-radius: 5px;
+  top: calc(100% + 6px);
+  left: -9999px;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.dropdown__item-chart {
+  font-weight: bold;
+}
+
+.dropdown__item-dinner {
+  font-weight: 600;
+}
+
+.dropdown::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -8px;
+  width: 100%;
+  height: 20px;
+}
+
+.dropdown::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: 40px;
+  width: 20px;
+  height: 20px;
+  background: #EDEDED;
+  transform: rotate(45deg);
+}

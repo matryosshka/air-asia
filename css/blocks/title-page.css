@@ -1,0 +1,20 @@
+.title-page {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.title-page__main {
+  margin-bottom: 26px;
+  width: 45%;
+  line-height: 1.4;
+}
+
+.title-page__services {
+  margin-bottom: 118px;
+  line-height: 1;
+}
+
+.title-page__reviews {
+  margin-bottom: 129px;
+  line-height: 1;
+}

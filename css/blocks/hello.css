@@ -1,0 +1,9 @@
+.hello {
+  display: flex;
+  min-height: 580px;
+}
+
+.hello__description {
+  font-size: 18px;
+  margin-bottom: 34px;
+}
