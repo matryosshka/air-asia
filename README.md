@@ -16,6 +16,3 @@
 - Figma
 - Pixel perfect
 - GitHub Pages
-
-<br>
-<p>🎓 <a href="https://loftschool.com/diploma/YZ1640715367/ru/pdf">Сертификат</a> о прохождении курса с итоговой оценкой.</p>
